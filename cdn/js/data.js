@@ -1,0 +1,19 @@
+window.data = {
+    allColor:['black','pink','purple','white','yellow'],
+    allSize:[110,120,130,145,155,165],
+    byColor:{
+        black:[110,145,155,165],
+        pink:[110,120,145,155,165],
+        purple:[155,165],
+        white:[110,155,165],
+        yellow:[110]
+    },
+    bySize:{
+        '110':['purple','white','yellow'],
+        '120':['black','pink','white','yellow'],
+        '130':['black','pink','purple'],
+        '145':['black','yellow'],
+        '155':['black'],
+        '165':['pink']
+    }
+}

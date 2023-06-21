@@ -1,0 +1,48 @@
+
+#wrap>div{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+div.top{
+    width: 400px;
+    text-align: center;
+    padding:15px;
+}
+div.top>img{
+    width: 100%;
+}
+div.bottom{
+    width: 500px;
+    margin: 50px auto 0;
+    padding:15px;
+}
+div.bottom>p{
+    margin-bottom: 100px;
+}
+
+div.bottom>p>label{
+    font-size: 39px;
+
+}
+div.bottom>p>select{
+    width: 200px;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 8px;
+}
+div.bottom>p:nth-child(2){
+    width: 500px;
+}
+div.bottom>p:nth-child(2)>label{
+    font-size: 39px;
+}
+div.bottom>p:nth-child(2)>select{
+    margin-left: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 8px;
+}
